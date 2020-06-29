@@ -35,10 +35,25 @@
     print_r($array_two); // mostra o que essa variavel é
 
     echo '</pre>';
-    
+
     // // Imprima o valor 1 do array 
     // echo $array['Numero'];
+     $array = [
+         'primeiro' => '1',
+         'segundo' => '2'
+     ];
 
+     $array2 = array(
+        'primeiro' => '1',
+        'segundo' => '2'
+     );
+     echo '<br/>';
+
+     var_dump($array);
+        echo '<br/>';
+        echo '<br/>';
+        echo '<br/>';
+    var_dump($array2);
 
 
     ?>
