@@ -44,8 +44,9 @@
             'Mel'
         );
 
-        for($i = 0; $i < count($array); $i++){
-            echo $array[$i];
+        // loop com array
+        for($i = 0; $i < count($array); $i++){ // count retorna um array 
+            echo $array[$i]; // especifica a variavel array e dentro dela a variavel i
             echo '<br/>';
         }
 
